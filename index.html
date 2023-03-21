@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!--REMIXICONS-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Responsive chicken website</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header" id="header" >
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="img/logo.png" alt="logo image">
+                Chicken
+            </a>
+
+            <div class="nav__menu" id="nav-menu" >
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">HOME</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">ABOUT</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">POPULAR</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#recently" class="nav__link">RECENTLY</a>
+                    </li>
+                </ul>
+
+                <!--nut dong-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <img src="img/leaf-branch-4.png" alt="nav image" class="nav__img-1">
+                <img src="img/leaf-branch-3.png" alt="nav image" class="nav__img-2">
+            </div>
+
+            <div class="nav__buttons">
+                <!--nut thay doi mau nen-->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <!--nut bat tat menu-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--MAIN-->
+    <main class="main">
+        <!--HOME-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="img/home-chicken-rolls.png" alt="home image" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Enjoy Delicious
+                        <div>
+                            <img src="img/home-chicken-title.png" alt="home image">
+                            Chicken
+                        </div>
+                    </h1>
+
+                    <p class="home__description">
+                        We attaches special importance to the diversity of their products, by always offering a rich menu.
+                    </p>
+
+                    <a href="#" class="button">
+                        Order Now <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <img src="img/leaf-branch-2.png" alt="home image" class="home__leaf-1">
+            <img src="img/leaf-branch-4.png" alt="home image" class="home__leaf-2"> 
+        </section>
+
+        <!--ABOUT-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <span class="section__subtitle">About Us</span>
+                    <h2 class="section__title about__title">
+                        <div>
+                            We Provide
+                            <img src="img/about-chicken-title.png" alt="about image">
+                        </div>
+                        Fresh Chicken Products
+                    </h2>
+
+                    <p class="about__description">
+                        The recipe of 11 herbs and spices used by KFC in preparation of our chicken remains a secret trade, which helps to create a special flavour for our products.
+                    </p>
+                </div>
+
+                <img src="img/about-chicken.png" alt="about image" class="about__img">
+            </div>
+
+            <img src="img/leaf-branch-1.png" alt="about image" class="about__leaf">
+        </section>
+
+        <!--POPULAR-->
+        <section class="popular section" id="popular">
+            <span class="section__subtitle">The Best Food</span>
+            <h2 class="section__title">Popular Dishes</h2>
+
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="img/popular-onigiri.png" alt="popular image" class="popular__img">
+
+                    <h3 class="popular__name">Combo Golden Lava</h3>
+                    <span class="popular__description">2 Golden Lava Taro + 1 Fried Chicken + 1 Shrimp Burger</span>
+
+                    <span class="popular__pice">$10.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+
+                </article>
+
+                <article class="popular__card">
+                    <img src="img/popular-spring-rols.png" alt="popular image" class="popular__img">
+
+                    <h3 class="popular__name">Combo Spaghetti</h3>
+                    <span class="popular__description">1 Spaghetti + 1 Fried Chicken + 1 Pepsi Can</span>
+
+                    <span class="popular__pice">$15.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+
+                </article>
+
+                <article class="popular__card">
+                    <img src="img/popular-chicken-rolls.png" alt="popular image" class="popular__img">
+
+                    <h3 class="popular__name">Combo Burger</h3>
+                    <span class="popular__description">1 Burger Zinger + 1 Fried Chicken + 1 Pepsi Can</span>
+
+                    <span class="popular__pice">$19.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+
+                </article>
+            </div>
+        </section>
+
+        <!--RECENTLY-->
+        <section class="recently section" id="recently">
+            <div class="recently__container container grid">
+                <div class="recently__data">
+                    <span class="section__subtitle">Recently Added</span>
+                    <h2 class="section__title">
+                        HOT WINGS 5 PCS<br>
+                        FISHSTICKS
+                    </h2>
+
+                    <p class="recently__description">
+                        Take a look at what's new. And to not deprive yourself of a good meal, enjoy and be happy.
+                    </p>
+
+                    <a href="#" class="button" >
+                        Order Now <i class="ri-arrow-right-line"></i>
+                    </a>
+
+                    <img src="img/spinach-leaf.png" alt="recently image" class="recently__data-img">
+                </div>
+
+                <img src="img/recently-salmon-chicken.png" alt="recently image" class="recently__img">
+            </div>
+
+            <img src="img/leaf-branch-2.png" alt="recently image" class="recently__leaf-1">
+            <img src="img/leaf-branch-3.png" alt="recently image" class="recently__leaf-2">
+        </section>
+
+        <!--NEWSLETTER-->
+        <section class="newsletter section">
+            <div class="newsletter__container container">
+                <div class="newsletter__content grid">
+                    <img src="img/newsletter-chicken.png" alt="newsletter image" class="newsletter__img">
+
+                    <div class="newsletter__data">
+                        <span class="section__subtitle">Newsletter</span>
+                        <h2 class="section__title">
+                            Subscribe For<br>
+                            Updates
+                        </h2>
+
+                        <form action="" class="newsletter__form">
+                            <input type="email" placeholder="Enter email" class="newsletter__input">
+
+                            <button class="button newsletter__button">
+                                Subscribe <i class="ri-send-plane-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <img src="img/spinach-leaf.png" alt="newsletter image" class="newsletter__spinach">
+            </div>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="img/logo.png" alt="logo image">
+                    Chicken
+                </a>
+
+                <p class="footer__description">
+                    Food for the body is not<br>
+                    enough. There must be food<br>
+                    for the soul.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Main menu</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer_link">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Offer</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Events</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Information</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer_link">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Order & Returns</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Videos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Reservation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Address</h3>
+
+                    <ul class="footer__links">
+                        <li class="footer__information">
+                            Nguyen Trai, Ha Dong<br>
+                            Ha Noi
+                        </li>
+                        <li class="footer__information">
+                            9AM - 11PM
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Social Media</h3>
+
+                    <ul class="footer__social">
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="img/spring-onion.png " alt="footer image" class="footer__onion">
+            <img src="img/leaf-branch-4.png " alt="footer image" class="footer__leaf">
+        </div>
+    </footer>
+
+    <!--SCROLL UP-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--SCROLLREVEAL-->
+    <script src="js/scrollreveal.min.js"></script>
+    <!--MAIN JS-->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
